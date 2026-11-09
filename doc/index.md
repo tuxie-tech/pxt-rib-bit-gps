@@ -4,7 +4,7 @@ title: Rib:bit GPS Support
 mfn:
     - hwidx.org/2/1/1.0
     - hwidx.org/2/1/2.0
-hero: rib-bit-hero.png
+hero: gps_hero.png
 info: >-
     Rib:bit GPS adds GPS position, time, and receiver-control blocks for Rib:bit projects, with live fix tracking, satellite counts, and NMEA event hooks.
 plugins:
@@ -14,6 +14,7 @@ tags:
     - api
     - makecode
     - blocks
+    - rib:bit
 ---
 
 ## Overview
@@ -21,6 +22,17 @@ tags:
 Rib:bit GPS helps you add location and time awareness to Rib:bit projects using beginner-friendly blocks.
 
 This page is the learner-first starting point. If you are new, begin with blocks and only jump into TypeScript when you need deeper control.
+
+## Add to MakeCode
+
+1. Open [MakeCode for micro:bit](https://makecode.microbit.org/) and start a **New Project** (or open an existing one).
+2. Click the **gear** menu at the top right, then choose **Extensions**.
+3. Paste `https://github.com/tuxie-tech/pxt-rib-bit-gps` into the search box and press Enter.
+4. Click the **Rib:bit GPS** tile that appears. A GPS category is added to the block toolbox.
+
+[Rib:bit Basics](../pxt-rib-bit/) is loaded automatically as a dependency, so you do not need to add it yourself.
+
+To edit the extension itself, choose **Import** on the MakeCode home screen, then **Import URL**, and paste the same address.
 
 ## What you can build
 
