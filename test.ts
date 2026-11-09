@@ -1,1 +1,14 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+// @render gps-position
+RibBitGPS.switchGPS( RibBit.OnOff.On )
+RibBitGPS.onPositionUpdate( function () {
+    if( RibBitGPS.has3DFix() ) {
+        basic.showString( "" + RibBitGPS.getLatitude() )
+    }
+} )
+// @endrender
+
+// @render gps-time
+RibBitGPS.onTimeUpdate( function () {
+    basic.showString( RibBitGPS.getTime() )
+} )
+// @endrender
