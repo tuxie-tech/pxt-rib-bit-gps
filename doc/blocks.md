@@ -5,9 +5,7 @@ title: Rib:bit GPS Blocks Guide
 
 ## Overview
 
-This page is a visual-blocks-first guide for learners.
-
-Block images are not generated automatically in this pass. Use the placeholders below to insert transparent PNG block captures.
+This page is a visual-blocks-first guide for learners. Every block is shown here exactly as it appears in MakeCode.
 
 ## Suggested block walkthrough order
 
@@ -16,27 +14,42 @@ Block images are not generated automatically in this pass. Use the placeholders 
 3. Read position and time values.
 4. Save or display data.
 
-## Block placeholders
+## GPS power control
 
-### GPS power control
+![switch gps](../renders/blocks/switchGPS-blocks.png)
+![is GPS on](../renders/blocks/isGPSOn-blocks.png)
 
-- Placeholder: insert transparent PNG for the block that toggles GPS power.
+## Position update event
 
-### Position update event
+![on a position update](../renders/blocks/onPositionUpdate-blocks.png)
+![on a NMEA event](../renders/blocks/onNEMAData-blocks.png)
 
-- Placeholder: insert transparent PNG for the block that runs on position update.
+## Fix status checks
 
-### Fix status checks
+![has 2D fix](../renders/blocks/has2DFix-blocks.png)
+![has 3D fix](../renders/blocks/has3DFix-blocks.png)
+![satellites tracking](../renders/blocks/satellites-blocks.png)
 
-- Placeholder: insert transparent PNGs for 2D and 3D fix check blocks.
+## Spatial reads
 
-### Spatial reads
+![latitude](../renders/blocks/getLatitude-blocks.png)
+![longitude](../renders/blocks/getLongitude-blocks.png)
+![altitude](../renders/blocks/getAltitude-blocks.png)
+![accuracy](../renders/blocks/getAccuracy-blocks.png)
 
-- Placeholder: insert transparent PNGs for latitude, longitude, altitude, satellites, and accuracy blocks.
+## Time reads and save
 
-### Time reads and save
+![on a time update](../renders/blocks/onTimeUpdate-blocks.png)
+![the current time](../renders/blocks/getTime-blocks.png)
+![the current date](../renders/blocks/getDate-blocks.png)
+![the hour](../renders/blocks/getHour-blocks.png)
+![the minute](../renders/blocks/getMinute-blocks.png)
+![the second](../renders/blocks/getSecond-blocks.png)
+![save GPS time](../renders/blocks/saveGPSTime-blocks.png)
 
-- Placeholder: insert transparent PNGs for time/date component blocks and save-time block.
+## Utility
+
+![as long float number](../renders/blocks/toLongFloatString-blocks.png)
 
 ## Next steps
 
